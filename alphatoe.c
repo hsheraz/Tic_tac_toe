@@ -1,6 +1,6 @@
 /*
  * Fixed version of alphatoe.c
- * Credit: Samuel Guilbeault
+ * 
  */
 
 #include "ttt.h"
