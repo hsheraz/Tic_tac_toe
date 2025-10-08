@@ -1,7 +1,7 @@
 #include "ttt.h"
 #include <string.h>
 
-void init_boards(){
+void init_boards(void){
     int i;
     for (i = 0; i < HSIZE; i++){
         htable[i].init = 0;
@@ -87,7 +87,7 @@ int best_move( int board ){
     return best_move;
 }
 
-void compute_score(){
+void compute_score(void){
     int i, j;
     for (i = 9; i >= 0; i--){
         for (j = 0; j < HSIZE; j++){

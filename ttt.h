@@ -37,13 +37,13 @@ extern struct BoardNode htable[HSIZE];
 int board_hash( Board board );
 int imax( int a, int b );
 int imin( int a, int b );
-void init_boards();
+void init_boards(void);
 char winner( Board board );
 int depth( Board board );
 char turn( Board board );
 void init_board( Board board );
 void join_graph( Board board );
-void compute_score();
+void compute_score(void);
 int best_move( int board );
 void print_node( struct BoardNode board_node );
 #endif
