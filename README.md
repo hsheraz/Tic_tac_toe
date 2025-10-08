@@ -12,7 +12,6 @@
 ## Build
 ```
 make alphatoe
-
 ```
 This also compiles the shared support code (`ttt1.c`, `ttt2.c`) into the executable.
 
@@ -20,14 +19,12 @@ To build everything (interactive game plus helper tools):
 
 ```
 make all
-
 ```
 
 ## Run the Interactive Game
 
 ```
 ./alphatoe
-
 ```
 - Choose whether you play as `X` or `O` when prompted.
 - Enter moves as digits `0`–`8`; the board positions correspond to the labels shown on the initial board.
@@ -43,7 +40,6 @@ make all
   ```
   make show_node
   ./show_node 0 3280
-  
   ```
   Hashes map directly to positions in `htable`; invalid hashes report as unreachable.
 
